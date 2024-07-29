@@ -1,0 +1,42 @@
+body {
+    font-family: Poppins;
+    color: var(--blackColor);
+}
+
+/* hr {
+    background-color: pink;
+} */
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+.button--active {
+    border: 0;
+    padding: 11px 24px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: var(--activeColor);
+    font-family: PoppinsBold;
+    cursor: pointer;
+}
+
+.button--active:hover {
+    opacity: .8;
+}
+
+.button--primary {
+    border: 1px solid var(--borderColor);
+    padding: 11px 24px;
+    border-radius: 4px;
+    color: var(--primaryColor);
+    background-color: transparent;
+    font-family: PoppinsBold;
+    cursor: pointer;
+}
+
+.button--primary:hover {
+    background-color: var(--borderColor);
+}
+
